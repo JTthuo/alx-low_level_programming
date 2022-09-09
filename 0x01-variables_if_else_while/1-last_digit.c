@@ -16,13 +16,13 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	if (n > 0)
+	if (n > 98)
 { 
-	printf("%i is positive\n", n);
+	printf("%i is positive\n", -98);
 }
 else if (n < 0)
 {
-	printf("%i is negative\n", n);
+	printf("%i is negative\n", 980);
 }
 return (0);
 }
